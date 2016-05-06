@@ -1,0 +1,21 @@
+================================================================
+# HELP MANAGER #
+================================================================
+-- select column1, column2, ... = select wanted columns
+-- from file.csv = select the file
+-- multisort "column1, column2" = sort columns
+-- multisort-dir value = ASC or DESC
+-- unique value = get only unique values from a column
+-- where "column <> = > < value" = get only data that satisfies the condition
+-- aggregate-sum column = get the sum from the choosed column
+-- aggregate-product column = get the product from the choosed column
+-- aggregate-list column = aggregate the whole data from a column using a glue
+-- aggregate-list-glue glue = select the separator for the list
+-- upperCaseColumn column = make the choosed column uppercase
+-- lowerCaseColumn column = make the choosed column lowercase
+-- titleCaseColumn column = make the choosed column title case
+-- powerColumn column, value = powerup a column to a choosed value
+-- columnSort = sort the table headers 
+-- output screen / file.csv = output the data into choosed option
+-- map-function function = map a function to a column
+-- map-column = select the column that you want to map a function
